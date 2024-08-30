@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+    background-color: aqua;
+}
+
+header {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+header p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    bottom: 5px;
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+h1 {
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+}
+
+section p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    font-style: italic;
+}
+
+h1.hello-text {
+    color: brown;
+    font-size: 18px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#about h1 {
+    margin-bottom: 10px;
+}
+
+#about img.rounded-img {
+    border-radius: 50%;
+
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-container .skill-item {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.skill-container .skill-item i {
+    margin-bottom: 5px;
+}
+
+.skill-container .skill-item h4 {
+    margin-bottom: 5px;
+}
+
+#contact .contact-container .form-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .contact-container .form-name input {
+    box-sizing: border-box;
+    width: 48%;
+}
+
+.contact-container input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    font-size: 12px;
+}
+
+.contact-container textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    font-size: 12px;
+}
