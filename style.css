@@ -22,6 +22,7 @@ header {
 header p {
     font-style: italic;
     font-weight: bold;
+    color: blue;
 }
 
 section {
@@ -40,7 +41,8 @@ section p {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: .5px;
-    font-style: italic;
+    font-style: normal;
+    text-align: justify;
 }
 
 h1.hello-text {
@@ -59,7 +61,7 @@ h1.hello-text {
 }
 
 #about img.rounded-img {
-    border-radius: 10%;
+    border-radius: 50%;
 
 }
 
@@ -111,4 +113,5 @@ h1.hello-text {
     border-radius: 4px;
     border: 1px solid #aaa;
     font-size: 12px;
+    max-width: 100%;
 }
